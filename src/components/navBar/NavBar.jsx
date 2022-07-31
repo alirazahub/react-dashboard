@@ -2,7 +2,6 @@ import React from 'react'
 import './navbar.scss'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
 import NotificationsNoneOutlined from '@mui/icons-material/NotificationsNoneOutlined';
@@ -19,9 +18,6 @@ function NavBar() {
               <div className="item">
                 <LanguageOutlinedIcon className ='icon' />
                 English
-              </div>
-              <div className="item">
-                <DarkModeOutlinedIcon className ='icon' />
               </div>
               <div className="item">
                 <NotificationsNoneOutlined className ='icon' />
